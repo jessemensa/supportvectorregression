@@ -1,0 +1,17 @@
+Support Vector Regression => 
+
+Simple linear regression is just a line through the dataset and to find the line that 
+best fits, we use the ordinary least squares(SUM(y - yhat) -> minimum)
+minimise the distance between predicted value y and the actual value in the dataset
+
+
+SVregression, instead of a simple line, see a tube, with a regression line in the middle 
+the tube has a width of episolun as measured vertically. this means any point that falls 
+inside the tube will be disregarding the error, inside the tube dont care abt the error line 
+between the predicted value and the actual value because it falls inside the tube or the 
+episolun. so thats key behind support vector regression. 
+gives the model a buffer
+points outside the episolun tube, and for them we do care about the error and will be 
+measured as the distance between the pt and tube itself. 
+
+
